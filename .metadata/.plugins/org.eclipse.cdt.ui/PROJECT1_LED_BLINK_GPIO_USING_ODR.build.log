@@ -1,0 +1,10 @@
+20:57:55 **** Incremental Build of configuration Debug for project PROJECT1_LED_BLINK_GPIO_USING_ODR ****
+make -j2 all 
+arm-none-eabi-size   PROJECT1_LED_BLINK_GPIO_USING_ODR.elf 
+   text	   data	    bss	    dec	    hex	filename
+    796	      8	   1568	   2372	    944	PROJECT1_LED_BLINK_GPIO_USING_ODR.elf
+Finished building: default.size.stdout
+ 
+
+20:57:56 Build Finished. 0 errors, 0 warnings. (took 500ms)
+

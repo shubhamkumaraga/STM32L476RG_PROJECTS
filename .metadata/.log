@@ -1,0 +1,58 @@
+!SESSION 2023-01-12 20:29:39.522 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-01-12 20:36:32.452
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-01-12 20:36:33.686
+!MESSAGE Log4j initialized with config file C:\Users\m\Desktop\STM32CubeIDE PROJECTS\STM32L476RG PROJECTS\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-01-12 20:37:46.659
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-12 20:40:46.604
+!MESSAGE Indexed 'PROJECT1_LED_BLINK_GPIO_USING_ODR' (3 sources, 53 headers) in 5.05 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-01-12 20:55:01.663
+!MESSAGE Request for monitor: '91^error,msg="Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-01-12 20:55:01.663
+!MESSAGE Failed to execute MI command:
+-data-write-memory 0x48000018 x 4 0x20
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+!STACK 0
+java.lang.Exception: Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-12 21:01:44.742
+!MESSAGE Indexed 'PROJECT2_USART_TX_RX' (21 sources, 82 headers) in 6.98 sec: 5,610 declarations; 32,690 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0052%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-12 21:02:52.028
+!MESSAGE Indexed 'PROJECT2_USART2_TX_RX' (3 sources, 53 headers) in 1.68 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.debug.core 4 5012 2023-01-12 21:51:52.837
+!MESSAGE Launch configuration PROJECT1_LED_BLINK_GPIO_USING_ODR Debug at file:/C:/Users/m/Desktop/STM32CubeIDE%20PROJECTS/STM32L476RG%20PROJECTS/PROJECT1_LED_BLINK_GPIO_USING_ODR/PROJECT1_LED_BLINK_GPIO_USING_ODR%20Debug.launch does not exist.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-01-12 21:59:43.251
+!MESSAGE Request for monitor: '93^error,msg="Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2023-01-12 21:59:43.251
+!MESSAGE Failed to execute MI command:
+-data-write-memory 0x4002104c x 4 0x1
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+!STACK 0
+java.lang.Exception: Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-01-12 22:19:27.490
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob

@@ -1,0 +1,7 @@
+22:18:24 **** Incremental Build of configuration Debug for project PROJECT2_USART2_TX_RX ****
+make -j2 all 
+arm-none-eabi-size   PROJECT2_USART2_TX_RX.elf 
+   text	   data	    bss	    dec	    hex	filename
+    904	      8	   1568	   2480	    9b0	PROJECT2_USART2_TX_RX.elf
+Finished building: default.size.stdout
+ 

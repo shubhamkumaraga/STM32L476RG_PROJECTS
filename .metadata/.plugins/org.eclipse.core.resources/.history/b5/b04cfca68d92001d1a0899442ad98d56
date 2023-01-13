@@ -1,0 +1,26 @@
+#include "stm32l476xx.h"
+void Delay_MS(int delay);
+
+int main(void)
+{
+
+	RCC->AHB2ENR |= (1<<0);
+	GPIOA->MODER |= (1<<10);
+	GPIOA->MODER &= ~(1<<11);
+
+	while(1)
+	{
+		GPIOA->BSRR |= (1<<5);
+		Delay_MS(100);
+		GPIOA->BSRR |= (1<<21);
+		Delay_MS(100);
+	}
+
+}
+
+void Delay_MS(int delay)
+{
+	int i;
+	for(;delay>0;delay--)
+		for(i=0;i<=3195;i++);
+}
